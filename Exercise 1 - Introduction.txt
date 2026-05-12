@@ -1,0 +1,13 @@
+human = int(input("what is your age?"))
+... cats = int(human)
+... dogs = int(human)
+... if human == 1:
+...     cats = 15
+...     dogs = 15
+... elif human == 2:
+...     cats = 24
+...     dogs = 24
+... else:
+...     cats = human * 4 + 16
+...     dogs = human * 5 + 14
+... print("[",human,", ",cats,", ",dogs,"]")
